@@ -52,3 +52,64 @@ nav ul li a {
     font-weight: 600;
 
 }
+/* FOOTER: ahora voy a editar el footer*/
+footer {
+    background-image: url(./asets/img/img_footer.jpg);
+    display: flex;
+    /*justify-content: space-between;*/
+    padding: 30px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+footer p {
+    font-family: "Noto Sans", sans-serif;
+    color: #fff;
+
+}
+
+.logo_footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    align-content: center;
+    align-items: center;
+}
+
+.logo_footer img {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+.logo_footer h5 {
+    font-family: "Yuyu", sans-serif;
+    color: #fa1368;
+    font-size: 25px;
+}
+
+.letras_footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listas_footer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.listas_footer ul {
+    padding-left: 40px;
+    list-style: none;
+}
+.listas_footer ul li{
+    padding-bottom:5px ;
+}
+.listas_footer a{
+    text-decoration: none;
+    color: #fa1368;
+}
