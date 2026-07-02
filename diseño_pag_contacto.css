@@ -52,11 +52,14 @@ nav ul li a {
     font-weight: 600;
 
 }
+
 /* FOOTER: ahora voy a editar el footer*/
 footer {
     background-image: url(./asets/img/img_footer.jpg);
     display: flex;
-    /*justify-content: space-between;*/
+    background-image: url(./asets/img/img_footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px;
     max-width: 100%;
     margin: 0 auto;
@@ -106,10 +109,12 @@ footer p {
     padding-left: 40px;
     list-style: none;
 }
-.listas_footer ul li{
-    padding-bottom:5px ;
+
+.listas_footer ul li {
+    padding-bottom: 5px;
 }
-.listas_footer a{
+
+.listas_footer a {
     text-decoration: none;
     color: #fa1368;
 }

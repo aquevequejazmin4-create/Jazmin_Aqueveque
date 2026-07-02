@@ -56,7 +56,9 @@ nav ul li a {
 footer {
     background-image: url(./asets/img/img_footer.jpg);
     display: flex;
-    /*justify-content: space-between;*/
+    background-image: url(./asets/img/img_footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px;
     max-width: 100%;
     margin: 0 auto;
