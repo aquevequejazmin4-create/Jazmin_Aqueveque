@@ -52,6 +52,37 @@ nav ul li a {
     font-weight: 600;
 
 }
+
+/* MAIN DESARROLLO*/
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-letras {
+    width: 40%;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+.container-letras h4{
+    
+}
+
+.container-letras h2 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-letras p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-family: "Noto Sans", sans-serif;
+}
+
 /* FOOTER: ahora voy a editar el footer*/
 footer {
     background-image: url(./asets/img/img_footer.jpg);
@@ -108,10 +139,12 @@ footer p {
     padding-left: 40px;
     list-style: none;
 }
-.listas_footer ul li{
-    padding-bottom:5px ;
+
+.listas_footer ul li {
+    padding-bottom: 5px;
 }
-.listas_footer a{
+
+.listas_footer a {
     text-decoration: none;
     color: #fa1368;
 }

@@ -53,6 +53,33 @@ nav ul li a {
 
 }
 
+/* el desarrollo del main*/
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-letras {
+    width: 40%;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.container-letras h2 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-letras p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-family: "Noto Sans", sans-serif;
+}
+
 /* FOOTER: ahora voy a editar el footer*/
 footer {
     display: flex;

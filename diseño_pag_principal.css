@@ -63,7 +63,7 @@ main {
     background-color: #e3e3e3;
 
 }
-
+/*Este conteiner es igual en todos*/
 .container {
     display: flex;
     justify-content: center;
@@ -89,7 +89,7 @@ main {
     margin-bottom: 30px;
     font-family: "Noto Sans", sans-serif;
 }
-
+/*ES UN BOTON PARA ENTRAR EN LA PAGINA DE TIENDA*/
 .boton_tienda {
     background-color: #fa1368;
     color: #fff;
@@ -122,8 +122,7 @@ main {
     -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
     mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
 }
-}
-
+/* Segundo div del main, este es diferente en cada una de las paginas*/
 .servicios {
     width: 90%;
     margin: 40px auto;
@@ -132,6 +131,7 @@ main {
 .servicios h2 {
     text-align: center;
     margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .cards {
@@ -142,12 +142,18 @@ main {
 
 .card {
     flex: 1;
-    border: 1px solid #fff;
+    border: 1px solid #adabab;
     border-radius: 10px;
     padding: 25px;
     text-align: center;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 0px #DDDBDB;
 }
+.card p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 800;
 
+}
 .card img {
     width: 55px;
     margin-bottom: 15px;
